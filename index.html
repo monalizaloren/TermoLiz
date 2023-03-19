@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela da Liz</title>
+    <style>
+        body{
+            text-align: center;
+        }
+#keyboard {
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+      margin-left: 100px;
+     
+    }
+    .key {
+      color: rgb(0, 0, 0);
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+    </style>
+
+
+</head>
+<body>
+    <textarea id="caixadetexto" placeholder="Digite aqui"></textarea>
+    <div id="keyboard" >
+      <div class="key" onclick="insertText('q')">q</div>
+      <div class="key" onclick="insertText('w')" >w</div>
+      <div class="key" onclick="insertText('e')">e</div>
+      <div class="key" onclick="insertText('r')">r</div>
+      <div class="key" onclick="insertText('t')">t</div>
+      <div class="key" onclick="insertText('y')">y</div>
+      <div class="key" onclick="insertText('u')">u</div>
+      <div class="key" onclick="insertText('i')">i</div>
+      <div class="key" onclick="insertText('o')">o</div>
+      <div class="key" onclick="insertText('p')">p</div>
+      <div class="key" onclick="insertText('a')">a</div>
+      <div class="key" onclick="insertText('s')">s</div>
+      <div class="key" onclick="insertText('d')">d</div>
+      <div class="key" onclick="insertText('f')">f</div>
+      <div class="key" onclick="insertText('g')">g</div>
+      <div class="key" onclick="insertText('h')">h</div>
+      <div class="key" onclick="insertText('j')">j</div>
+      <div class="key" onclick="insertText('k')">k</div>
+      <div class="key" onclick="insertText('l')">l</div>
+      <div class="key" onclick="insertText('z')">z</div>
+      <div class="key" onclick="insertText('x')">x</div>
+      <div class="key" onclick="insertText('c')">c</div>
+      <div class="key" onclick="insertText('v')">v</div>
+      <div class="key" onclick="insertText('b')">b</div>
+      <div class="key" onclick="insertText('n')">n</div>
+      <div class="key" onclick="insertText('m')">m</div>
+    </div>
+    <br>
+<br>
+<div>
+<button id="enter" class="botoes"> Enter </button>
+</body>
+</html>
